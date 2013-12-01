@@ -1,44 +1,78 @@
 body{
-  background-color: #9999FF;
+  /*background-color: #9999FF;*/
+  background-image:url('../img/israel_background.jpg');
+  background-size:100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: 'Lato', sans-serif;
 }
 
-.welcome-photos {
-  max-height: 300px;
-  margin: 0 auto;
-}
-
-#gallery li{
-  background-color: #9999FF;
-}
-
-div .orbit-container{
-  background-color: #9999FF;
+h1, h2, h3, h4 {
+  font-family: 'Lato', sans-serif;
 }
 
 .our-titles{
-  text-align: center;
-  font-family: 'Open Sans', sans-serif;
+  text-align: right;
+  font-family: 'Lato', sans-serif;
+  color: black;
 }
 
 .welcome-links{
-  text-align: center: ;
-  width: 100%;
-  border: 0;
-  background-color: #9999FF;
+  padding-top: 40px;
+  text-align: right;
 }
 
-tr{
-  border: 0;
+ul {
+  padding-top: 40px;
+  list-style-type:none;
+  text-align: right;
 }
 
-td{
-  width: 100px;
-  height: 60px;
-  text-align: center;
-  background-color: #2980b9;
-  border-radius: 8px;
+li a{
+  color: black;
 }
 
-td a{
+li{
+  margin-bottom: 20px;
+}
+
+.transparent-light{
+  background:rgba(255,255,255,0.6);
+}
+
+.transparent-dark{
+  background:rgba(0,0,0,0.7);
   color: #fff;
 }
+
+.transparent-dark > h1, h2, h3, h4{
+  color: #fff;
+}
+
+.sections{
+  margin-top: 30em;
+  margin-bottom: 60em;
+  background-color: #e74c3c;
+  color: #fff;
+}
+
+.sections h1{
+  color: #fff;
+}
+
+.sections a{
+  color: #fff;
+}
+
+.email{
+  color: #1FFFFF;
+}
+
+/* panels*/
+
+#event-info-html, #contact-us-html, #travel-html, #jewish-guide-html,
+#chicago-html, #registry-html, #our-story-html{
+  position: absolute;
+  right: 5000px;
+}
+
