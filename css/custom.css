@@ -1,0 +1,26 @@
+.welcome-photos {
+  max-height: 300px;
+  margin: 0 auto;
+}
+
+#gallery li{
+  background-color: #fff;
+}
+
+div .orbit-container{
+  background-color: #fff;
+}
+
+.our-titles{
+  text-align: center;
+}
+
+.container{
+  margin: 0 auto;
+  text-align: center;
+}
+
+.container li{
+  display: inline;
+  padding: 5px;
+}
