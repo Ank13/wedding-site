@@ -1,26 +1,44 @@
+body{
+  background-color: #9999FF;
+}
+
 .welcome-photos {
   max-height: 300px;
   margin: 0 auto;
 }
 
 #gallery li{
-  background-color: #fff;
+  background-color: #9999FF;
 }
 
 div .orbit-container{
-  background-color: #fff;
+  background-color: #9999FF;
 }
 
 .our-titles{
   text-align: center;
+  font-family: 'Open Sans', sans-serif;
 }
 
-.container{
-  margin: 0 auto;
+.welcome-links{
+  text-align: center: ;
+  width: 100%;
+  border: 0;
+  background-color: #9999FF;
+}
+
+tr{
+  border: 0;
+}
+
+td{
+  width: 100px;
+  height: 60px;
   text-align: center;
+  background-color: #2980b9;
+  border-radius: 8px;
 }
 
-.container li{
-  display: inline;
-  padding: 5px;
+td a{
+  color: #fff;
 }
