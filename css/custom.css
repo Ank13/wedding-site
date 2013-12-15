@@ -70,9 +70,10 @@ li{
 
 /* panels*/
 
-#event-info-html, #contact-us-html, #travel-html, #jewish-guide-html,
-#chicago-html, #registry-html, #our-story-html{
+.offscreen{
   position: absolute;
-  right: 5000px;
+  left: -999em;
+  height: 0%;
+  overflow: hidden;
 }
 

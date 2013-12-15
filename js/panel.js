@@ -47,7 +47,7 @@ $(document).ready(function () {
     $('#info-panel').html("<h1>Coming Soon!</h1><a class='close' href='#'>Close</a>")
   });
 
-  $('body').on('click', '.close', function(event) {
+  $('body').on('click', '#info-panel', function(event) {
     event.preventDefault();
     $('#info-panel').html("")
   });
