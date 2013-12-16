@@ -1,0 +1,105 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=1024" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <title>Our Story</title>
+
+  <link href='http://fonts.googleapis.com/css?family=Peralta' rel='stylesheet' type='text/css'>
+
+  <!-- TODO update style sheet -->
+  <link href="css/our-story-styles.css" rel="stylesheet" />
+
+</head>
+
+<body class="impress-not-supported">
+
+<div class="fallback-message">
+  <p>Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with a simplified version of this presentation.</p>
+  <p>For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser.</p>
+</div>
+
+<div id="impress" data-transition-duration="1000">
+
+  <div id="girl" class="step" data-x="0" data-y="0" data-rotate="0" data-scale="1" >
+    <p>There was a girl who moved to DC </p>
+    <p><i>insert picture of Shira</i></p>
+  </div>
+
+  <div class="step" data-x="700" data-y="-700" data-rotate="45" data-scale="1">
+    <p>Her friend Justin says, "nu? How is a pretty girl like you single?"</p>
+  </div>
+
+  <div class="step" data-x="700" data-y="0" data-rotate="90" >
+    <p>So he asked his friend David if he knew any nice, single Jewish men in DC</p>
+  </div>
+
+  <div class="step" data-x="1000" data-y="1000" data-rotate="135" data-scale="10">
+    <p>David said, "no..."</p>
+  </div>
+
+  <div class="step" data-x="1000" data-y="1000" data-rotate="315" data-scale=".1">
+    <p>"But I do know Avi!!"</p>
+    <i>(picture of Avi)</i>
+  </div>
+
+  <div class="step" data-x="2400" data-y="0" data-rotate="180" data-scale="1">
+    <p>Shira and Avi met on a September night in 2012 at Veritas Wine Bar</p>
+  </div>
+
+  <div class="step" data-x="-1400" data-y="1400" data-rotate="225" data-scale="1">
+    <p>
+      Conversation and wine flowed, sparks and laughter flew, and they knew this would be the first of many dates
+    </p>
+  </div>
+
+  <div class="step" data-x="-1400" data-y="0" data-rotate="270" data-scale="1">
+    <p>Over the coming months they bonded over ...</p>
+  </div>
+
+  <div class="step" data-x="0" data-y="-1400" data-rotate="315" data-scale="1">
+    <p>Common Jewish and family values</p>
+  </div>
+
+  <div class="step" data-x="1400" data-y="-1400" data-rotate="360" data-scale="1">
+    <p>a shared love of cooking...and eating...</p>
+  </div>
+
+  <div class="step" data-x="2900" data-y="0" data-rotate="45" data-scale="1">
+    <p>outdoor activities...</p>
+  </div>
+
+  <div class="step" data-x="2000" data-y="2000" data-rotate="90" data-scale="5">
+    <p>and being <i>ridiculously</i> serious </p>
+  </div>
+
+  <div class="step" data-x="2000" data-y="2000" data-rotate="90" data-scale="5" data-z="-100" data-rotate-x="-40" data-rotate-y="10">
+    <p>Not ;-) </p>
+  </div>
+
+  <div class="step" data-x="0" data-y="1400" data-rotate="135" data-rotate-x="-40" >
+    <p>And the rest is history</p>
+  </div>
+
+  <div id="overview" class="step" data-x="3000" data-y="1500" data-scale="10">
+  </div>
+</div>
+
+
+<div class="hint">
+    <p>Use a spacebar or arrow keys to navigate</p>
+</div>
+<script>
+if ("ontouchstart" in document.documentElement) {
+    document.querySelector(".hint").innerHTML = "<p>Tap on the left or right to navigate</p>";
+}
+</script>
+
+<script src="js/vendor/impress.js"></script>
+<script>impress().init();</script>
+
+
+</body>
+</html>
