@@ -59,7 +59,7 @@ body {
 }
 
 
-/* Basics */
+/* Custom */
 b, strong {
   font-weight: bold
 }
@@ -70,6 +70,43 @@ i, em {
 
 p{
   text-align: center;
+}
+
+div{
+  text-align: center;
+}
+
+.left-col{
+  margin: 0;
+  padding: 0;
+  width: 40%;
+  float: left;
+}
+
+.right-col{
+  margin: 0;
+  padding: 0;
+  width: 40%;
+  float: left;
+}
+
+.big{
+  font-size: 1.5em;
+  color: #FF33CC;
+}
+
+.button{
+ font-size: 0.9em;
+ padding: .5em 1em;
+ background-color: #000;
+ color: #fff;
+ border: 1px solid #fff;
+ border-radius: 15px;
+ display: block;
+}
+
+a{
+ text-decoration: none;
 }
 
 /* Fallback message */
