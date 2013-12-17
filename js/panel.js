@@ -36,12 +36,6 @@ $(document).ready(function () {
     $('#info-panel').html(panel)
   });
 
-  $('body').on('click', '#our-story', function(event) {
-    event.preventDefault();
-    var panel = $('#our-story-html').html()
-    $('#info-panel').html(panel)
-  });
-
   $('.coming_soon').on('click', function(event) {
     event.preventDefault();
     $('#info-panel').html("<h1>Coming Soon!</h1><a class='close' href='#'>Close</a>")
