@@ -1,0 +1,44 @@
+body{
+  background-color: #E0E0E0;
+  background-image:url('../img/old_moon.png');
+  font-family: 'Lato', sans-serif;
+}
+
+.center{
+  text-align: center;
+}
+
+.question{
+  padding: 9px 5px;
+  border-radius: 7px;
+  background-color: #000;
+}
+
+h6{
+  color: #fff
+}
+
+.choices{
+  list-style-type: upper-alpha;
+  list-style-position:inside;
+  height: 210px;
+}
+
+.choice{
+  text-align: left;
+  border: 1px solid black;
+  margin-top: 2px;
+  padding: 4px;
+  background-color: #ffffff;
+  font-size: 14px;
+}
+
+.result{
+  text-align: center;
+  padding: 1px;
+  color: #FFFF33;
+}
+
+.link{
+  margin: 30px;
+}
