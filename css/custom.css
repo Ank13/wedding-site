@@ -7,7 +7,7 @@ body{
   font-family: 'Lato', sans-serif;
 }
 
-h1, h2, h3, h4 {
+h1, h2, h3, h4, h5, h6 {
   font-family: 'Lato', sans-serif;
 }
 
@@ -46,7 +46,7 @@ li{
   color: #fff;
 }
 
-.transparent-dark > h1, h2, h3, h4{
+.transparent-dark > h1, h2, h3, h4, h5, h6{
   color: #fff;
 }
 
@@ -67,6 +67,45 @@ li{
 
 .email{
   color: #1FFFFF;
+}
+
+/* Travel */
+.courtyard{
+  background-color: #FF7A7A;
+  width: 48%;
+}
+
+.embassy{
+  background-color: #7AFFBD;
+  width: 48%;
+}
+
+.hotel-names{
+  font-weight: 900;
+  text-align: center;
+  width: 48%;
+}
+
+.hotel-courtyard{
+  color: #FF7A7A;
+}
+
+.hotel-embassy{
+  color: #00CC00;
+}
+
+/* Registry*/
+
+.bbb{
+  background-color: #CCFFFF;
+}
+
+.macys{
+  background-color: #FF9999;
+}
+
+.crate{
+  background-color: #CCCCFF;
 }
 
 /* panels*/
