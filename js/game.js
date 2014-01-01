@@ -4,6 +4,7 @@ $(document).ready(function () {
 
   // when click on correct answer
   $('body').on('click', '.y', function(event) {
+    event.preventDefault();
     $(this).css('background-color', '#66FF33')
     $(this).parent().children('.result').show()
     var response = $(this).parent().children('.result').data('y')
@@ -12,6 +13,7 @@ $(document).ready(function () {
 
   // when click on incorrect answer
   $('body').on('click', '.n', function(event) {
+    event.preventDefault();
     $(this).css('background-color', '#FF0033')
     $(this).parent().children('.result').show()
     $(this).parent().children('.result').html("Try again!")

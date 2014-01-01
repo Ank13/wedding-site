@@ -15,6 +15,17 @@
   <script src="js/vendor/jquery.js"></script>
   <script src="js/game.js"></script>
 
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-46753039-1', 'shiraandavi.com');
+    ga('require', 'linkid', 'linkid.js');
+    ga('send', 'pageview');
+  </script>
+
 </head>
 
 <body>
@@ -30,12 +41,12 @@
     <div class="large-4 small-12 columns">
       <div class="question small-centered">
         <h6>What profession did Shira and Avi both want to have when they grew up?</h6>
-        <ol class="choices">
+        <ol class="choices" id="profession">
           <span class="result" data-y="Correct, an astronaut! Only Avi wanted to be a plumber"></span>
-          <li class="choice n">Plumber</li>
-          <li class="choice n">Lawyer</li>
-          <li class="choice n">Rabbi</li>
-          <li class="choice y">Astronaut</li>
+          <li class="choice n"><a href="#">Plumber</a></li>
+          <li class="choice n"><a href="#">Lawyer</a></li>
+          <li class="choice n"><a href="#">Rabbi</a></li>
+          <li class="choice y"><a href="#">Astronaut</a></li>
         </ol>
       </div>
     </div>
@@ -43,53 +54,41 @@
     <div class="large-4 small-12 columns">
       <div class="question small-centered">
         <h6>What was Shira's favorite movie growing up from which she can still recite every line?</h6>
-        <ol class="choices">
+        <ol class="choices" id="movie">
           <span class="result" data-y="Correct. She pretended to be Friedrich when acting it out"></span>
-          <li class="choice n">The Wizard of Oz</li>
-          <li class="choice y">The Sound of Music</li>
-          <li class="choice n">Dirty Dancing</li>
-          <li class="choice n">Star Wars</li>
+          <li class="choice n"><a href="#">The Wizard of Oz</a></li>
+          <li class="choice y"><a href="#">The Sound of Music</a></li>
+          <li class="choice n"><a href="#">Dirty Dancing</a></li>
+          <li class="choice n"><a href="#">Star Wars</a></li>
         </ol>
       </div>
     </div>
 
     <div class="large-4 small-12 columns">
       <div class="question small-centered">
-        <h6>What does Shira consider her greatest accomplishment in 2012?</h6>
-        <ol class="choices">
-          <span class="result" data-y="Both A and B are correct! C is not true and D was not that hard!"></span>
-          <li class="choice y">Running her first (and only) half-marathon</li>
-          <li class="choice y">Becoming board certified in neuropsychology</li>
-          <li class="choice n">Learning to speak Spanish</li>
-          <li class="choice n">Meeting Avi and winning his heart</li>
+        <h6>What was Avi's highest rank in the Army?</h6>
+        <ol class="choices" id="rank">
+          <span class="result" data-y="Correct, but Shira still won't salute ;-)"></span>
+          <li class="choice n"><a href="#">Major Pain</a></li>
+          <li class="choice n"><a href="#">Admiral of Vice</a></li>
+          <li class="choice y"><a href="#">Captain</a></li>
+          <li class="choice n"><a href="#">General Electric</a></li>
         </ol>
       </div>
     </div>
+
   </div>
 
   <div class="row 2">
     <div class="large-4 small-12 columns">
       <div class="question small-centered">
-        <h6>What was Avi's highest rank in the Army?</h6>
-        <ol class="choices">
-          <span class="result" data-y="Correct, but Shira still won't salute ;-)"></span>
-          <li class="choice n">Major Pain</li>
-          <li class="choice n">Admiral of Vice</li>
-          <li class="choice y">Captain</li>
-          <li class="choice n">General Electric</li>
-        </ol>
-      </div>
-    </div>
-
-    <div class="large-4 small-12 columns">
-      <div class="question small-centered">
-        <h6>In which east coast city has Shira not lived?</h6>
-        <ol class="choices">
-          <span class="result" data-y="Correct. But we're working on that :-)"></span>
-          <li class="choice n">Baltimore</li>
-          <li class="choice n">Washington</li>
-          <li class="choice n">Philadelphia</li>
-          <li class="choice y">Boston</li>
+        <h6>What does Shira consider her greatest accomplishment in 2012?</h6>
+        <ol class="choices" id="accomplishment">
+          <span class="result" data-y="Both A and B are correct! C is not true and D was not that hard!"></span>
+          <li class="choice y"><a href="#">Running her first (and only) half-marathon</a></li>
+          <li class="choice y"><a href="#">Becoming board certified in neuropsychology</a></li>
+          <li class="choice n"><a href="#">Learning to speak Spanish</a></li>
+          <li class="choice n"><a href="#">Meeting Avi and winning his heart</a></li>
         </ol>
       </div>
     </div>
@@ -97,12 +96,25 @@
     <div class="large-4 small-12 columns">
       <div class="question small-centered">
         <h6>On which very practical subject did Avi write his college thesis?</h6>
-        <ol class="choices">
+        <ol class="choices" id="college-thesis">
           <span class="result" data-y="Correct! (It was the only one that existed.)"></span>
-          <li class="choice y">Roman cities</li>
-          <li class="choice n">Business ethics</li>
-          <li class="choice n">Military intelligence</li>
-          <li class="choice n">Kosher logic</li>
+          <li class="choice y"><a href="#">Roman cities</a></li>
+          <li class="choice n"><a href="#">Business ethics</a></li>
+          <li class="choice n"><a href="#">Military intelligence</a></li>
+          <li class="choice n"><a href="#">Kosher logic</a></li>
+        </ol>
+      </div>
+    </div>
+
+    <div class="large-4 small-12 columns">
+      <div class="question small-centered">
+        <h6>In which east coast city has Shira not lived?</h6>
+        <ol class="choices" id="shira-city">
+          <span class="result" data-y="Correct. But we're working on that :-)"></span>
+          <li class="choice n"><a href="#">Baltimore</a></li>
+          <li class="choice n"><a href="#">Washington</a></li>
+          <li class="choice n"><a href="#">Philadelphia</a></li>
+          <li class="choice y"><a href="#">Boston</a></li>
         </ol>
       </div>
     </div>
@@ -112,12 +124,12 @@
     <div class="large-4 small-12 columns">
       <div class="question small-centered">
         <h6>How many miles are on Shira's and Avi's cars, combined?</h6>
-        <ol class="choices">
+        <ol class="choices" id="miles">
           <span class="result" data-y="Correct. The journey of 210,000 miles starts with...a single mile"></span>
-          <li class="choice n">342,867</li>
-          <li class="choice y">210,000</li>
-          <li class="choice n">84,000</li>
-          <li class="choice n">613</li>
+          <li class="choice n"><a href="#">342,867</a></li>
+          <li class="choice y"><a href="#">210,000</a></li>
+          <li class="choice n"><a href="#">84,000</a></li>
+          <li class="choice n"><a href="#">613</a></li>
         </ol>
       </div>
     </div>
@@ -125,12 +137,12 @@
     <div class="large-4 small-12 columns">
       <div class="question small-centered">
         <h6>How many Middle Eastern countries has Avi visited?</h6>
-        <ol class="choices">
-          <span class="result" data-y="Iraq, Eygpt, Israel, Kuwait, Jordan, & Qatar. Honeymoon in Iran?"></span>
-          <li class="choice n">1</li>
-          <li class="choice n">3</li>
-          <li class="choice y">6</li>
-          <li class="choice n">8</li>
+        <ol class="choices" id="middle-east">
+          <span class="result" data-y="Iraq, Egypt, Israel, Kuwait, Jordan, & Qatar. Honeymoon in Iran?"></span>
+          <li class="choice n"><a href="#">1</a></li>
+          <li class="choice n"><a href="#">3</a></li>
+          <li class="choice y"><a href="#">6</a></li>
+          <li class="choice n"><a href="#">8</a></li>
         </ol>
       </div>
     </div>
@@ -138,17 +150,16 @@
     <div class="large-4 small-12 columns">
       <div class="question small-centered">
         <h6>How excited are you for Shira and Avi's wedding?</h6>
-        <ol class="choices">
+        <ol class="choices" id="excited">
           <span class="result" data-y="So are we!"></span>
-          <li class="choice y">Ridiculously</li>
-          <li class="choice y">Heaps</li>
-          <li class="choice y">Oodles</li>
-          <li class="choice y">A lot</li>
+          <li class="choice y"><a href="#">Ridiculously</a></li>
+          <li class="choice y"><a href="#">Heaps</a></li>
+          <li class="choice y"><a href="#">Oodles</a></li>
+          <li class="choice y"><a href="#">Very much</a></li>
         </ol>
       </div>
     </div>
   </div>
-
 
 </body>
 </html>

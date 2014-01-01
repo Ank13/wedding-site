@@ -77,13 +77,17 @@ li{
 
 .embassy{
   background-color: #7AFFBD;
-  width: 48%;
+  width: 40%;
 }
 
 .hotel-names{
   font-weight: 900;
   text-align: center;
-  width: 48%;
+  width: 40%;
+}
+
+.row-name{
+  width: 15%;
 }
 
 .hotel-courtyard{
