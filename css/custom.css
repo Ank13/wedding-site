@@ -121,3 +121,23 @@ li{
   overflow: hidden;
 }
 
+/* Chicago */
+.chicago-activity{
+  background-color: #7f8c8d;  /*#95a5a6;*/
+  margin: .4em;
+  margin-bottom: 2em;
+  padding: .4em;
+  height: 10em;
+  width: 30%;
+  text-align: center;
+  border-radius: 3px;
+}
+
+.chicago-activity > a {
+  color: white;
+}
+
+.inline-link{
+  color: #3498db;
+}
+
