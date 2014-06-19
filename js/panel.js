@@ -36,10 +36,15 @@ $(document).ready(function () {
     $('#info-panel').html(panel)
   });
 
-
   $('body').on('click', '#proposal-video', function(event) {
     event.preventDefault();
     var panel = $('#proposal-html').html()
+    $('#info-panel').html(panel)
+  });
+
+  $('body').on('click', '#faq', function(event) {
+    event.preventDefault();
+    var panel = $('#faq-html').html()
     $('#info-panel').html(panel)
   });
 
