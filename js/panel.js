@@ -36,6 +36,18 @@ $(document).ready(function () {
     $('#info-panel').html(panel)
   });
 
+  $('body').on('click', '#proposal-video', function(event) {
+    event.preventDefault();
+    var panel = $('#proposal-html').html()
+    $('#info-panel').html(panel)
+  });
+
+  $('body').on('click', '#faq', function(event) {
+    event.preventDefault();
+    var panel = $('#faq-html').html()
+    $('#info-panel').html(panel)
+  });
+
   $('.coming_soon').on('click', function(event) {
     event.preventDefault();
     $('#info-panel').html("<h1>Coming Soon!</h1><a class='close' href='#'>Close</a>")
